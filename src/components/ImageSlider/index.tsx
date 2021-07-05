@@ -55,6 +55,7 @@ export function ImageSlider({imagesUrl} : Props){
                     showsHorizontalScrollIndicator={false}
                     onViewableItemsChanged={indexChanged.current}
                 />
+                
         </Container>
     );
 }
