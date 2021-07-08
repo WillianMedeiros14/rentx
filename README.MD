@@ -5,7 +5,7 @@
 <br>
 
 <h1 align="center">
-  <img alt="rentex" title="RentX" src="./src/assets/Capa.png" width="60%"/>
+  <img alt="rentex" title="RentX" src="./src/assets/Capa.png" width="70%"/>
 </h1>
 
 <h1 align="center">
