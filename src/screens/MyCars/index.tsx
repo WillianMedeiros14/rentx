@@ -79,9 +79,8 @@ export function MyCars(){
                 />
 
                 <Title>
-                    Escolha uma {'\n'}
-                    data de início e {'\n'}
-                    fim do aluguel
+                    Seus agendamentos,{'\n'}
+                    estão aqui.
                 </Title>
 
                 <Subtitle>
@@ -99,7 +98,7 @@ export function MyCars(){
 
                 <FlatList
                     data={cars}
-                    keyExtractor={item => item.id}
+                    keyExtractor={item => String(item.id)}
                     showsVerticalScrollIndicator={false}
                     renderItem={({ item }) => (
                         <CarWrapper>

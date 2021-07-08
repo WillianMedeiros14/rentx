@@ -262,88 +262,62 @@
     {
       "id": "535e8de8-721b-4bac-8b72-7d29be7da467",
       "unavailable_dates": {
-        "0": "2021-07-03",
-        "1": "2021-07-04",
-        "2": "2021-06-09",
-        "3": "2021-05-25",
-        "4": "2021-07-16",
-        "5": "2021-07-17",
-        "6": "2021-07-18",
-        "7": "2021-05-28",
-        "8": "2021-05-29",
-        "9": "2021-05-30",
-        "10": "2021-05-28",
-        "11": "2021-05-29",
-        "12": "2021-05-30",
-        "13": "2021-05-28",
-        "14": "2021-05-29",
-        "15": "2021-05-30",
-        "16": "2021-06-16",
-        "17": "2021-06-17",
-        "18": "2021-06-18"
+        "0": "2021-07-08",
+        "1": "2021-07-09",
+        "2": "2021-07-10",
+        "3": "2021-07-11"
       }
     },
     {
       "id": "ffb71f55-818a-48b1-b7d2-2efc406ede25",
       "unavailable_dates": {
-        "0": "2021-07-09",
-        "1": "2021-07-15",
-        "2": "2021-07-16",
-        "3": "2021-06-01",
-        "4": "2021-06-02",
-        "5": "2021-06-03",
-        "6": "2021-06-04",
-        "7": "2021-05-29",
-        "8": "2021-05-30",
-        "9": "2021-05-29",
-        "10": "2021-05-30"
+        "0": "2021-07-30",
+        "1": "2021-07-31",
+        "2": "2021-07-10",
+        "3": "2021-07-11",
+        "4": "2021-07-12",
+        "5": "2021-07-13",
+        "6": "2021-07-14",
+        "7": "2021-07-15"
       }
     },
     {
       "id": "52930821-cbea-4b05-9f45-7c02b1bb0d8c",
       "unavailable_dates": {
-        "0": "2021-07-10",
-        "1": "2021-07-11",
-        "2": "2021-08-22",
-        "3": "2021-06-19",
-        "4": "2021-06-20",
-        "5": "2021-07-15",
-        "6": "2021-07-16",
-        "7": "2021-07-17",
-        "8": "2021-07-18",
-        "9": "2021-05-28",
-        "10": "2021-05-29",
-        "11": "2021-05-30"
+        "0": "2021-07-14",
+        "1": "2021-07-11"
       }
     },
     {
       "id": "49983f6c-a46a-4dfd-a86e-425b8c72e086",
       "unavailable_dates": {
-        "0": "2021-07-29",
-        "1": "2021-06-20",
-        "2": "2021-06-21"
+        "0": "2021-07-30",
+        "1": "2021-07-31",
+        "2": "2021-07-24",
+        "3": "2021-07-25",
+        "4": "2021-07-26",
+        "5": "2021-07-27",
+        "6": "2021-07-28",
+        "7": "2021-07-29"
       }
     },
     {
       "id": "508e7193-0078-4615-9071-920b59038fda",
       "unavailable_dates": {
-        "0": "2021-07-09",
-        "1": "2021-07-10",
-        "2": "2021-07-11",
-        "3": "2021-06-10",
-        "4": "2021-06-11",
-        "5": "2021-06-12",
-        "6": "2021-06-17",
-        "7": "2021-06-18",
-        "8": "2021-06-19"
+        "0": "2021-07-09"
       }
     },
     {
       "id": "59626707-88c5-4877-9350-07f372c0905a",
       "unavailable_dates": {
-        "0": "2021-07-09",
-        "1": "2021-07-22",
-        "2": "2021-07-23"
+        "0": "2021-08-01",
+        "1": "2021-08-02",
+        "2": "2021-08-03",
+        "3": "2021-07-25",
+        "4": "2021-07-26",
+        "5": "2021-07-27",
+        "6": "2021-07-28",
+        "7": "2021-07-29"
       }
     }
   ],
@@ -393,8 +367,8 @@
           "https://storage.googleapis.com/golden-wind/ignite/react-native/images/8.png"
         ]
       },
-      "startDate": "10/07/2021",
-      "endDate": "10/07/2021",
+      "startDate": "14/07/2021",
+      "endDate": "14/07/2021",
       "id": 1
     },
     {
@@ -441,39 +415,39 @@
           "https://storage.googleapis.com/golden-wind/ignite/react-native/images/5.png"
         ]
       },
-      "startDate": "14/07/2021",
-      "endDate": "14/07/2021",
+      "startDate": "30/07/2021",
+      "endDate": "31/07/2021",
       "id": 2
     },
     {
       "user_id": 1,
       "car": {
-        "id": "59626707-88c5-4877-9350-07f372c0905a",
-        "brand": "mitsubishi",
-        "name": "Lancer",
-        "about": "Mitsubishi Lancer é um belo e agressivo carro. Além do mais, ele encanta pelo conforto e pela eficiência. Bastante firme e estável para dirigir com tranquilidade e segurança.",
+        "id": "49983f6c-a46a-4dfd-a86e-425b8c72e086",
+        "brand": "Lamborghini",
+        "name": "Huracan",
+        "about": "Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É um belíssimo carro para quem gosta de acelerar.",
         "rent": {
           "period": "Ao dia",
-          "price": 220
+          "price": 120
         },
-        "fuel_type": "hybrid_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/6.png",
+        "fuel_type": "electric_motor",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/4.png",
         "accessories": [
           {
             "type": "speed",
-            "name": "180km/h"
+            "name": "380km/h"
           },
           {
             "type": "acceleration",
-            "name": "2.0s"
+            "name": "3.2s"
           },
           {
             "type": "turning_diameter",
-            "name": "600 HP"
+            "name": "800 HP"
           },
           {
-            "type": "hybrid_motor",
-            "name": "Híbrido"
+            "type": "electric_motor",
+            "name": "Elétrico"
           },
           {
             "type": "exchange",
@@ -481,48 +455,48 @@
           },
           {
             "type": "seats",
-            "name": "5 pessoas"
+            "name": "2 pessoas"
           }
         ],
         "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/15.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/16.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/17.png"
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/9.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/10.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/11.png"
         ]
       },
-      "startDate": "21/07/2021",
-      "endDate": "23/07/2021",
+      "startDate": "30/07/2021",
+      "endDate": "31/07/2021",
       "id": 3
     },
     {
       "user_id": 1,
       "car": {
-        "id": "ffb71f55-818a-48b1-b7d2-2efc406ede25",
-        "brand": "Porsche",
-        "name": "Panamera",
-        "about": "O Panamera é um automóvel de luxo coupé com porte grande. Tem motorização dianteira V6 e V8. A tração é integral com uma caixa PDK de sete mudanças e dupla embreagem.",
+        "id": "59626707-88c5-4877-9350-07f372c0905a",
+        "brand": "mitsubishi",
+        "name": "Lancer",
+        "about": "Mitsubishi Lancer é um belo e agressivo carro. Além do mais, ele encanta pelo conforto e pela eficiência. Bastante firme e estável para dirigir com tranquilidade e segurança.",
         "rent": {
           "period": "Ao dia",
-          "price": 340
+          "price": 220
         },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
+        "fuel_type": "hybrid_motor",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/6.png",
         "accessories": [
           {
             "type": "speed",
-            "name": "315km/h"
+            "name": "180km/h"
           },
           {
             "type": "acceleration",
-            "name": "2.9s"
+            "name": "2.0s"
           },
           {
             "type": "turning_diameter",
-            "name": "700 HP"
+            "name": "600 HP"
           },
           {
-            "type": "gasoline_motor",
-            "name": "Gasoline"
+            "type": "hybrid_motor",
+            "name": "Híbrido"
           },
           {
             "type": "exchange",
@@ -530,752 +504,18 @@
           },
           {
             "type": "seats",
-            "name": "4 pessoas"
+            "name": "5 pessoas"
           }
         ],
         "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/4.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/5.png"
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/15.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/16.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/17.png"
         ]
       },
-      "startDate": "09/07/2021",
-      "endDate": "09/07/2021",
+      "startDate": "01/08/2021",
+      "endDate": "03/08/2021",
       "id": 4
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 5
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 6
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 7
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 8
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 9
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 10
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 11
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 12
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "508e7193-0078-4615-9071-920b59038fda",
-        "brand": "volvo",
-        "name": "XC40",
-        "about": "A Poderosa Combinação de um Motor Elétrico de Alto Desempenho e um Motor a Combustão. Compacto e Inovador. Com Design Expressivo, Tecnologias Intuitivas e Estilo Urbano.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "gasoline_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "1.5s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "gasoline_motor",
-            "name": "Gasolina"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/12.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/13.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/14.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "11/07/2021",
-      "id": 13
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "59626707-88c5-4877-9350-07f372c0905a",
-        "brand": "mitsubishi",
-        "name": "Lancer",
-        "about": "Mitsubishi Lancer é um belo e agressivo carro. Além do mais, ele encanta pelo conforto e pela eficiência. Bastante firme e estável para dirigir com tranquilidade e segurança.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 220
-        },
-        "fuel_type": "hybrid_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/6.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "2.0s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "hybrid_motor",
-            "name": "Híbrido"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/15.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/16.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/17.png"
-        ]
-      },
-      "startDate": "23/07/2021",
-      "endDate": "23/07/2021",
-      "id": 14
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "59626707-88c5-4877-9350-07f372c0905a",
-        "brand": "mitsubishi",
-        "name": "Lancer",
-        "about": "Mitsubishi Lancer é um belo e agressivo carro. Além do mais, ele encanta pelo conforto e pela eficiência. Bastante firme e estável para dirigir com tranquilidade e segurança.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 220
-        },
-        "fuel_type": "hybrid_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/6.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "2.0s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "hybrid_motor",
-            "name": "Híbrido"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/15.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/16.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/17.png"
-        ]
-      },
-      "startDate": "23/07/2021",
-      "endDate": "23/07/2021",
-      "id": 15
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "59626707-88c5-4877-9350-07f372c0905a",
-        "brand": "mitsubishi",
-        "name": "Lancer",
-        "about": "Mitsubishi Lancer é um belo e agressivo carro. Além do mais, ele encanta pelo conforto e pela eficiência. Bastante firme e estável para dirigir com tranquilidade e segurança.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 220
-        },
-        "fuel_type": "hybrid_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/6.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "2.0s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "hybrid_motor",
-            "name": "Híbrido"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/15.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/16.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/17.png"
-        ]
-      },
-      "startDate": "23/07/2021",
-      "endDate": "23/07/2021",
-      "id": 16
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "49983f6c-a46a-4dfd-a86e-425b8c72e086",
-        "brand": "Lamborghini",
-        "name": "Huracan",
-        "about": "Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É um belíssimo carro para quem gosta de acelerar.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "electric_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/4.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "380km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "3.2s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "800 HP"
-          },
-          {
-            "type": "electric_motor",
-            "name": "Elétrico"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "2 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/9.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/10.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/11.png"
-        ]
-      },
-      "startDate": "08/07/2021",
-      "endDate": "08/07/2021",
-      "id": 17
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "49983f6c-a46a-4dfd-a86e-425b8c72e086",
-        "brand": "Lamborghini",
-        "name": "Huracan",
-        "about": "Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É um belíssimo carro para quem gosta de acelerar.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 120
-        },
-        "fuel_type": "electric_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/4.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "380km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "3.2s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "800 HP"
-          },
-          {
-            "type": "electric_motor",
-            "name": "Elétrico"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "2 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/9.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/10.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/11.png"
-        ]
-      },
-      "startDate": "29/07/2021",
-      "endDate": "29/07/2021",
-      "id": 18
-    },
-    {
-      "user_id": 1,
-      "car": {
-        "id": "59626707-88c5-4877-9350-07f372c0905a",
-        "brand": "mitsubishi",
-        "name": "Lancer",
-        "about": "Mitsubishi Lancer é um belo e agressivo carro. Além do mais, ele encanta pelo conforto e pela eficiência. Bastante firme e estável para dirigir com tranquilidade e segurança.",
-        "rent": {
-          "period": "Ao dia",
-          "price": 220
-        },
-        "fuel_type": "hybrid_motor",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/6.png",
-        "accessories": [
-          {
-            "type": "speed",
-            "name": "180km/h"
-          },
-          {
-            "type": "acceleration",
-            "name": "2.0s"
-          },
-          {
-            "type": "turning_diameter",
-            "name": "600 HP"
-          },
-          {
-            "type": "hybrid_motor",
-            "name": "Híbrido"
-          },
-          {
-            "type": "exchange",
-            "name": "Auto"
-          },
-          {
-            "type": "seats",
-            "name": "5 pessoas"
-          }
-        ],
-        "photos": [
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/15.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/16.png",
-          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/17.png"
-        ]
-      },
-      "startDate": "09/07/2021",
-      "endDate": "09/07/2021",
-      "id": 19
     }
   ]
 }
