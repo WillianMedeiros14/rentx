@@ -1,15 +1,15 @@
 <h1 align="center">
-   <img alt="logo gofinances" title="logogofinaces" src="src/assets/logo.svg" width="200px" /><br>
+   <img alt="Rentex" title="Rentex" src="src/assets/logo.svg" width="200px" /><br>
 </h1>
 
 <br>
 
 <h1 align="center">
-  <img alt="rentex" title="RentX" src="./src/assets/Capa.png" width="70%"/>
+  <img alt="Rentex" title="RentX" src="./src/assets/Capa.png" width="70%"/>
 </h1>
 
 <h1 align="center">
-  <img alt="rentex" title="RentX" src="./src/assets/gifRentx.gif" width=230/>
+  <img alt="Rentex" title="RentX" src="./src/assets/gifRentx.gif" width=230/>
 </h1>
 
 ## 💻 Projeto
