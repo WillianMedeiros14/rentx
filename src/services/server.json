@@ -291,8 +291,8 @@
     {
       "id": "49983f6c-a46a-4dfd-a86e-425b8c72e086",
       "unavailable_dates": {
-        "0": "2021-07-30",
-        "1": "2021-07-31",
+        "0": "2021-07-29",
+        "1": "2021-07-30",
         "2": "2021-07-24",
         "3": "2021-07-25",
         "4": "2021-07-26",
@@ -310,9 +310,9 @@
     {
       "id": "59626707-88c5-4877-9350-07f372c0905a",
       "unavailable_dates": {
-        "0": "2021-08-01",
-        "1": "2021-08-02",
-        "2": "2021-08-03",
+        "0": "2021-07-22",
+        "1": "2021-07-23",
+        "2": "2021-07-24",
         "3": "2021-07-25",
         "4": "2021-07-26",
         "5": "2021-07-27",
@@ -516,6 +516,104 @@
       "startDate": "01/08/2021",
       "endDate": "03/08/2021",
       "id": 4
+    },
+    {
+      "user_id": 1,
+      "car": {
+        "id": "59626707-88c5-4877-9350-07f372c0905a",
+        "brand": "mitsubishi",
+        "name": "Lancer",
+        "about": "Mitsubishi Lancer é um belo e agressivo carro. Além do mais, ele encanta pelo conforto e pela eficiência. Bastante firme e estável para dirigir com tranquilidade e segurança.",
+        "rent": {
+          "period": "Ao dia",
+          "price": 220
+        },
+        "fuel_type": "hybrid_motor",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/6.png",
+        "accessories": [
+          {
+            "type": "speed",
+            "name": "180km/h"
+          },
+          {
+            "type": "acceleration",
+            "name": "2.0s"
+          },
+          {
+            "type": "turning_diameter",
+            "name": "600 HP"
+          },
+          {
+            "type": "hybrid_motor",
+            "name": "Híbrido"
+          },
+          {
+            "type": "exchange",
+            "name": "Auto"
+          },
+          {
+            "type": "seats",
+            "name": "5 pessoas"
+          }
+        ],
+        "photos": [
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/15.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/16.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/17.png"
+        ]
+      },
+      "startDate": "22/07/2021",
+      "endDate": "29/07/2021",
+      "id": 5
+    },
+    {
+      "user_id": 1,
+      "car": {
+        "id": "49983f6c-a46a-4dfd-a86e-425b8c72e086",
+        "brand": "Lamborghini",
+        "name": "Huracan",
+        "about": "Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É um belíssimo carro para quem gosta de acelerar.",
+        "rent": {
+          "period": "Ao dia",
+          "price": 120
+        },
+        "fuel_type": "electric_motor",
+        "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/4.png",
+        "accessories": [
+          {
+            "type": "speed",
+            "name": "380km/h"
+          },
+          {
+            "type": "acceleration",
+            "name": "3.2s"
+          },
+          {
+            "type": "turning_diameter",
+            "name": "800 HP"
+          },
+          {
+            "type": "electric_motor",
+            "name": "Elétrico"
+          },
+          {
+            "type": "exchange",
+            "name": "Auto"
+          },
+          {
+            "type": "seats",
+            "name": "2 pessoas"
+          }
+        ],
+        "photos": [
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/9.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/10.png",
+          "https://storage.googleapis.com/golden-wind/ignite/react-native/images/11.png"
+        ]
+      },
+      "startDate": "29/07/2021",
+      "endDate": "30/07/2021",
+      "id": 6
     }
   ]
 }
