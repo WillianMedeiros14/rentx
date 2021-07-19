@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { StatusBar, KeyboardAvoidingView, TouchableWithoutFeedback, Keyboard, Alert } from 'react-native';
 import * as Yup from 'yup';
+import { useNavigation } from '@react-navigation/native';
 
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input'
@@ -19,6 +20,8 @@ import {
 export function SignIn(){
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    const navigation = useNavigation();
 
     async function handleSigIn(){
         try {
@@ -44,6 +47,10 @@ export function SignIn(){
                 )
             }
         }
+    }
+
+    function handleNewAccount(){
+        navigation.navigate('SignUpFirstStep')
     }
 
     return (
@@ -98,7 +105,7 @@ export function SignIn(){
                         <Button
                             title="Criar conta gratuita"
                             color={theme.colors.background_secondary}
-                            onPress={() => {}}
+                            onPress={handleNewAccount}
                             enabled={true}
                             loading={false}
                             light
