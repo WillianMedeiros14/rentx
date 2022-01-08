@@ -7,4 +7,5 @@ export type RootStackParamList = {
     Confirmation: string | any;
     MyCars: string | any;
     Home: string | undefined;
+    SignUpFirstStep: string | undefined;
 };
