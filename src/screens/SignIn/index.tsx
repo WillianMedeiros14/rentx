@@ -9,8 +9,6 @@ import { PasswordInput } from '../../components/PasswordInput'
 
 import { useAuth } from '../../hooks/auth';
 
-import { database } from '../../databases';
-
 import theme from '../../styles/theme';
 import {
     Container,
@@ -59,16 +57,6 @@ export function SignIn(){
     function handleNewAccount(){
         navigation.navigate('SignUpFirstStep')
     }
-
-    useEffect(() => {
-        async function loadData() {
-            const userCollection = database.get('users');
-            const users = await userCollection.query().fetch();
-            console.log(users);
-        }
-
-        loadData();
-    }, []);
 
     return (
         <KeyboardAvoidingView behavior="position" enabled>
