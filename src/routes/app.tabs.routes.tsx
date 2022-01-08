@@ -26,6 +26,7 @@ export function AppTabsRoutes(){
                 tabBarInactiveTintColor: theme.colors.text_detail,
                 headerShown: false,
                 tabBarShowLabel: false,
+                tabBarHideOnKeyboard: true,
                 tabBarStyle: {
                    paddingVertical: Platform.OS == 'ios' ? 20 : 0,
                    height: 78,

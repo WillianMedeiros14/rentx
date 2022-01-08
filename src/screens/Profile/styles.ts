@@ -8,7 +8,7 @@ interface Props {
 }
 
 export const Container = styled.View `
-    flex: 1;
+   
     background-color: ${({ theme }) => theme.colors.background_primary};
 `;
 
@@ -67,17 +67,18 @@ export const PhotoBtton = styled(RectButton) `
 `;
 
 export const Content = styled.View `
-    flex: 1;
     padding: 0 24px;
     margin-top: 122px;
-`
+`;
+
 export const Options = styled.View `
     border-bottom-width: 1px;
     border-bottom-color: ${({ theme }) => theme.colors.line};
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 24px;
-`
+`;
+
 export const Option = styled.TouchableOpacity<Props> `
     padding-bottom: 14px;
     ${({ active }) => 
@@ -87,9 +88,14 @@ export const Option = styled.TouchableOpacity<Props> `
         `
     };
 
-`
+`;
+
 export const OptionTitle = styled.Text<Props> `
     font-size: ${RFValue(20)}px;
     font-family: ${({ theme, active }) => active ? theme.fonts.secondary_600 : theme.fonts.secondary_500};
     color: ${({ theme, active }) => active ? theme.colors.header : theme.colors.text_detail};
+`;
+
+export const Section = styled.View `
+   
 `
