@@ -31,7 +31,7 @@ export function Profile(){
     const theme = useTheme();
     const navigation = useNavigation();
 
-    const { user } = useAuth();
+    const { user, signOut } = useAuth();
 
     const [option, setOption] = useState<'dataEdit' | 'passwordEdit'>('dataEdit');
     const [avatar, setAvatar] = useState(user.avatar);
@@ -43,7 +43,7 @@ export function Profile(){
     }
 
     function handleSignOut(){
-
+        signOut();
     }
 
     function handleOptionChage(selectedOption: 'dataEdit' | 'passwordEdit'){
