@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { KeyboardAvoidingView, TouchableWithoutFeedback, Keyboard } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
+import * as ImagePicker from 'expo-image-picker';
 
 import { useAuth } from '../../hooks/auth';
 
@@ -33,12 +34,15 @@ export function Profile(){
     const { user } = useAuth();
 
     const [option, setOption] = useState<'dataEdit' | 'passwordEdit'>('dataEdit');
+    const [avatar, setAvatar] = useState(user.avatar);
+    const [name, setName] = useState(user.name);
+    const [driverLicense, setDriverLicense] = useState(user.driver_license);
 
     function handleBack(){
         navigation.goBack()
     }
 
-    function handleSignUp(){
+    function handleSignOut(){
 
     }
 
@@ -46,6 +50,23 @@ export function Profile(){
         setOption(selectedOption);
     }
 
+    async function handleSelectAvatar(){
+        let result = await ImagePicker.launchImageLibraryAsync({
+            mediaTypes: ImagePicker.MediaTypeOptions.Images,
+            allowsEditing: true,
+            aspect: [4, 4],
+            quality: 1,
+        });
+
+        if (result.cancelled) {
+            return;
+        }
+
+        if(result.uri){
+            setAvatar(result.uri);
+        }
+
+    }
     
 
     return(
@@ -59,7 +80,7 @@ export function Profile(){
                                 onPress={handleBack} 
                             />
                             <HeaderTitle>Editar perfil</HeaderTitle>
-                            <LogoutButton onPress={handleSignUp}>
+                            <LogoutButton onPress={handleSignOut}>
                                 <Feather 
                                     name="power" 
                                     size={24} 
@@ -69,8 +90,8 @@ export function Profile(){
                         </HeaderTop>
 
                         <PhotoContainer>
-                            <Photo source={{ uri: 'https://github.com/WillianMedeiros14.png'}} />
-                            <PhotoBtton onPress={() => {}}>
+                            { !!avatar && <Photo source={{ uri: avatar}} />}
+                            <PhotoBtton onPress={handleSelectAvatar}>
                                 <Feather
                                     name='camera'
                                     size={24}
@@ -102,6 +123,7 @@ export function Profile(){
                                         placeholder='Nome'
                                         autoCorrect={false}
                                         defaultValue={user.name}
+                                        onChangeText={setName}
                                     />
 
                                     <Input
@@ -115,6 +137,7 @@ export function Profile(){
                                         placeholder='CNH'
                                         keyboardType='numeric'
                                         defaultValue={user.driver_license}
+                                        onChangeText={setDriverLicense}
                                     />
                                 </Section>
                                 :
