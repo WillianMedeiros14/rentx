@@ -45,7 +45,20 @@ export function Profile(){
     }
 
     function handleSignOut(){
-        signOut();
+        Alert.alert(
+            'Tem certeza?',
+            'Se você sair, irá precisar de internet para conectar-se novamente.',
+            [
+                {
+                    text: 'Cancelar',
+                    onPress:() => {},
+                },
+                {
+                    text: 'Sair',
+                    onPress: () => signOut(),
+                }
+            ]
+        );
     }
 
     function handleOptionChage(selectedOption: 'dataEdit' | 'passwordEdit'){
