@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { StatusBar, StyleSheet } from 'react-native';
+import { StatusBar, StyleSheet, Alert } from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
 import { useNavigation } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from 'styled-components';
 import { RectButton, PanGestureHandler } from 'react-native-gesture-handler';
+import { useNetInfo,  } from '@react-native-community/netinfo';
 
 // import Animated, {
 //     useSharedValue,
@@ -34,6 +35,7 @@ export function Home(){
     const [cars, setCars] = useState<CarDTO[]>([]);
     const [loading, setLoading] = useState(true);
 
+    const netInfo = useNetInfo();
     const navigation = useNavigation();
 
     // const theme = useTheme();
@@ -88,6 +90,14 @@ export function Home(){
             isMounted = false;
         };
     },[]);
+
+    useEffect(() => {
+        if(netInfo.isConnected){
+            Alert.alert('Você está On-Line');
+        }else{
+            Alert.alert('Você está of-line');
+        }
+    }, [netInfo.isConnected]);
 
     function handleCarDetails(car: CarDTO){
         navigation.navigate('CarDetails', { car });
