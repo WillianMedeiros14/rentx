@@ -82,12 +82,11 @@ export function Profile(){
 
         if (result.cancelled) {
             return;
-        }
+        };
 
         if(result.uri){
             setAvatar(result.uri);
-        }
-
+        };
     }
 
     async function handleProfileUpdate(){
