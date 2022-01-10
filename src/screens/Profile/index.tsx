@@ -4,6 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import * as Yup from 'yup';
+import { useNetInfo } from '@react-native-community/netinfo';
 
 import { useAuth } from '../../hooks/auth';
 
@@ -29,9 +30,11 @@ import {
     Section
 } from './styles';
 
+
 export function Profile(){
     const theme = useTheme();
     const navigation = useNavigation();
+    const netInfo = useNetInfo();
 
     const { user, signOut, updatedUser } = useAuth();
 
@@ -62,7 +65,11 @@ export function Profile(){
     }
 
     function handleOptionChage(selectedOption: 'dataEdit' | 'passwordEdit'){
-        setOption(selectedOption);
+        if(netInfo.isConnected === false && selectedOption === 'passwordEdit'){
+            Alert.alert('Você está Offline', 'Para mudar a senha, conecte-se a Internet.');
+        }else{
+            setOption(selectedOption);
+        }
     }
 
     async function handleSelectAvatar(){
